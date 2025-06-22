@@ -419,7 +419,7 @@ footer {
   overflow: hidden;
   white-space: nowrap;
   border-right: 0.15em solid #ff8c94;
-  animation: typing 3s steps(40, end);
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
   width: fit-content;
   margin: 0 auto;
 }
